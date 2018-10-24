@@ -18,6 +18,7 @@ function accessElementInArray(array,index){
 function destructivelyRemoveElementFromBeginningOfArray(array,index){
   array.shift(index); return array
 }
+<<<<<<< HEAD
 function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
@@ -26,4 +27,8 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 function removeElementFromEndOfArray(array){
  return array.slice(0, array.length - 1)
+=======
+function removeElementFromBeginingOfArray(array,index){
+  return array.slice(1)
+>>>>>>> 817ef9fa5a14f308fe8b2c62af26554408eef643
 }
